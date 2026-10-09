@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-void: #050507;
   --color-surface: #121216;
   --color-surface-elevated: #181820;
@@ -46,8 +46,6 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  selection-background-color: #00F0FF;
-  selection-color: #050507;
 }
 
 ::selection {
